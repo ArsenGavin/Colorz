@@ -1,0 +1,71 @@
+.img__hero {
+  width: 100%;
+  height: auto;
+  margin-top: -6%;
+  position: relative;
+  z-index: 0;
+}
+
+.container__text__hero {
+  position: absolute;
+  top: 9vw;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+}
+.paragraph__hero{
+  color: rgba(240, 56, 15, 1);
+  font-size: 0.45em;
+  text-align: center;
+}
+
+.title__hero{
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cocarde__hero {
+  position: absolute;
+  top: 29vw;
+  right: 19%;
+  width: 10vw;
+}
+
+@media (max-width: 767px) {
+  .box__img__hero{
+    width: 100%;
+    height: 111vh;
+    background-image : url(..//assests/img-video/computer/Hero_mobile.png);
+    background-size : cover;
+    margin-top: -25%;
+  }
+  .img__hero {
+  display: none;
+  }
+  .container__text__hero {
+    top: 18vw;
+    width: 100%;
+  }
+  .paragraph__hero {
+    font-size: 0.8em;
+    width: 55%;
+    margin: auto;
+  }
+
+  .br__hero{
+    display: none;
+  }
+
+  .title__hero {
+    padding-top:8%;
+    line-height: 1.3em;
+    width: 80%;
+    margin: auto;
+  }
+  .cocarde__hero{
+    top: 192vw;
+    right: 2%;
+    width: 44vw;
+  }
+}

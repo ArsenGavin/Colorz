@@ -1,0 +1,68 @@
+.container__crossSell {
+  text-align: center;
+}
+
+.box__crossSell{
+  margin: 1.5% 5% 5% 5%;
+}
+
+.title__crossSell {
+  font-size: 1.7em;
+  font-weight: bold;
+  width: 60%;
+  margin: 5% auto 0;
+}
+
+.box__card{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  margin: 0 1%;
+  width: 20%;
+  border-radius: 5px;
+  border-color: rgba(243, 243, 243, 1);
+}
+
+.img__card {
+  width: 13vw;
+  margin: 10% auto;
+}
+
+.title__card {
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.price__card {
+  font-size: 0.4em;
+}
+
+@media (max-width: 767px) {
+  .box__crossSell {
+    overflow-y: auto;
+  }
+  .title__crossSell {
+    width: 90%;
+  }
+  .box__card{
+    width: 270vw;
+    margin-top: 8%;
+    
+  }
+  .card {
+    width: 100vw;
+  }
+  .img__card{
+    width: 50vw;
+  }
+  .title__card {
+    font-size: 1em;
+  }
+  .price__card {
+    font-size: 0.8em;
+  }
+}

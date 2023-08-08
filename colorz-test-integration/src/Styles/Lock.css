@@ -1,0 +1,86 @@
+.lock {
+  display: flex;
+  width: 100%;
+}
+.img__lock {
+  width: 50%;
+  height: auto;
+}
+
+.container__lock {
+  width: 50%;
+}
+
+.box__lock {
+  padding: 0 20%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__icon__lock{
+  width: 100%;
+}
+
+.icon__lock {
+  width: 2.5vw;
+  margin-bottom: 1%;
+}
+
+.title__box__lock {
+  font-size: 1.7em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.subtitle__box__lock {
+  font-size: 0.8em;
+}
+
+.span__CTA{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .lock {
+    display: block;
+  }
+  .img__lock {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container__lock {
+    width: 100%;
+  }
+  .box__lock {
+    padding: 8% 5%;
+  }
+  .icon__lock {
+    width: 10vw;
+    margin-bottom: 1%;
+  }
+  .title__box__lock {
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-top: 5%;
+  }
+
+  .subtitle__box__lock{
+    display: none;
+  }
+
+  .span__CTA {
+    display: block;
+  }
+
+  .span__CTA:after{
+    font-size: 1.1em;
+    font-weight: 400;
+    content:"Start from zero, choose your background and create your new life while impressing the collègues."
+  }
+}

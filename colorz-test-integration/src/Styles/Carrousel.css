@@ -1,0 +1,6 @@
+.dot {
+  opacity: 1!important;
+}
+.selected {
+  background-color: black!important;
+}

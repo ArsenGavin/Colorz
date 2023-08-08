@@ -1,0 +1,38 @@
+.container__CTA{
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.paragraph__CTA {
+  font-size: 0.8em;
+}
+
+.button__CTA {
+  background-color: rgba(240, 56, 15, 1);
+  font-weight: 500;
+  font-size: 0.6em;
+  border-radius: 150px;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.span__CTA {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .container__CTA{
+    width: 90%;
+    margin: 12% auto;
+  }
+  .paragraph__CTA {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .button__CTA {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 18px;
+  }
+}

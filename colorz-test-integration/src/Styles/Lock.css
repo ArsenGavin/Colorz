@@ -4,7 +4,7 @@
 }
 .img__lock {
   width: 50%;
-  height: auto;
+  height: 100vh;
 }
 
 .container__lock {
@@ -27,17 +27,17 @@
 
 .icon__lock {
   width: 2.5vw;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 
 .title__box__lock {
-  font-size: 1.7em;
+  font-size: 55px;
   font-weight: bold;
   line-height: 1.3em;
 }
 
 .subtitle__box__lock {
-  font-size: 0.8em;
+  font-size: 25px;
 }
 
 .span__CTA{
@@ -54,7 +54,8 @@
   }
   
   .container__lock {
-    width: 100%;
+    width: 95%;
+    margin: auto;
   }
   .box__lock {
     padding: 8% 5%;
@@ -64,7 +65,7 @@
     margin-bottom: 1%;
   }
   .title__box__lock {
-    font-size: 1.7em;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.3em;
     margin-top: 5%;
@@ -72,6 +73,7 @@
 
   .subtitle__box__lock{
     display: none;
+    font-size: 16px;
   }
 
   .span__CTA {

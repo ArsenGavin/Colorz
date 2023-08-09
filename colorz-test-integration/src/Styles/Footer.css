@@ -12,7 +12,7 @@
 
 .title__box__container{
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 22px;
   margin-bottom: 0.5rem;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .logo__colorz{
-  width: 5em;
+  width: 184px;
 }
 
 .logo__footer{
-  width: 2.2em;
+  width: 85px;
 }
 
 .box__img__container__footer{
@@ -36,7 +36,7 @@
 
 .text__box__container {
   padding:0;
-  font-size: 0.5em;
+  font-size: 16px;
 }
 
 
@@ -45,24 +45,24 @@
     flex-direction: column!important;
   }
   .title__box__container{
-    font-size: 1.2em;
+    font-size: 22px;
     font-weight: 400;
     padding-top: 5%;
   }
   .text__box__container {
-    font-size: 0.8em;
+    font-size: 16px;
   }
   .box__container__footer{
     width: 80%;
     padding: 2% 0;
   }
   .logo__colorz{
-    width: 8em;
+    width: 132px;
     margin-top: 10%;
   }
   
   .logo__footer{
-    width: 4em;
+    width: 73px;
     margin-left: 0;
   }
   .box__img__container__footer {
